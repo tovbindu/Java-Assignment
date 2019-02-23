@@ -64,35 +64,79 @@ import java.util.Scanner;
 //	}
 //}
 
-public class Assignmentclass1{
-	public static void main(String []args){
-		Scanner input = new Scanner(System.in);
-		System.out.print("Enter the Marital status of the driver: ");
-		String MS = input.next();
-		System.out.println("The Marital Status of the driver is " +MS);
-		
-		if (MS == "Married"){
-			System.out.println("The driver is insured");
-			}
-		else{
-		System.out.print("Enter the Age of the Driver: ");
-		int Age = input.nextInt();
-		System.out.print("Enter the sex of the driver: ");
-		String Sex = input.next();
-		System.out.println("The age of the driver is " +Age);
-		System.out.println("The Sex of the driver is " +Sex);
-		
-		if ((Sex == "Male")&&(Age > 30)){
-				 System.out.println("The driver is insured");
-				}
-		 if((Sex == "Female")&&(Age > 25)){
-				System.out.println("The driver is insured");
-					}
-		
-			System.out.println(" The driver is not insured");
-			}
-		
-			}
-		}
-	
+//public class Assignmentclass1{
+//	public static void main(String []args){
+//		Scanner input = new Scanner(System.in);
+//		System.out.print("Enter the Age of the Driver: ");
+//         int Age = input.nextInt();
+//        System.out.print("Enter the sex of the driver: ");
+//       String Sex = input.next();
+//       	System.out.print("Enter the Marital status of the driver: ");
+//		String MS = input.next();
+//		System.out.println("The age of the driver is " +Age);
+//	    System.out.println("The Sex of the driver is " +Sex);
+//		System.out.println("The Marital Status of the driver is " +MS);
+//		if (MS == "Married"){
+//			System.out.println("The driver is insured");
+//			}
+//		     
+//		else if ((Sex == "M")&&(Age > 30)){
+//				 System.out.println("The driver is insured");
+//				}
+//		else if((Sex == "F")&&(Age > 25)){
+//				System.out.println("The driver is insured");
+//					}
+//		else{
+//			System.out.println(" The driver is not insured");
+//			}
+//		
+//			}
+//		}
+//public class Assignmentclass1{
+//	public static void main(String []args){
+//		Scanner input = new Scanner(System.in);
+//		System.out.print("Enter the Cost price of the item: ");
+//		double CP = input.nextDouble();
+//		System.out.print("Enter the Selling Price of the item: ");
+//		double SP = input.nextDouble();
+//		System.out.println("The Cost price of the item is "+CP);
+//		System.out.println("The Selling Price of the item is "+SP);
+//		double L = CP - SP;
+//		double P = SP - CP;
+//		if (CP >= SP){
+//			System.out.println("The shopkeeper has incurred a loss of " +L);
+//			}
+//		else {
+//			System.out.println("The shopkeeper has incurred a profit of " +P);
+//		}
+//	}
+//}
+//public class Assignmentclass1{
+//	public static void main(String [] args){
+//		Scanner input = new Scanner(System.in);
+//		System.out.print("Enter any integer: ");
+//		int a = input.nextInt();
+//		System.out.println("The number entered is "+a);
+//		if (a%2 == 0){
+//			System.out.println("This number is an Even number");
+//			}
+//		else{
+//			System.out.println("This number is an Odd number");
+//		}
+//	}
+//}
+//	public class Assignmentclass1{
+//		public static void main(String []args){
+//			Scanner input = new Scanner(System.in);
+//			System.out.print("Enter any year: ");
+//			int year = input.nextInt();
+//			System.out.println("The year entered is "+year);
+//			if (year%4 == 0){
+//				System.out.println("This year is a Leap Year");
+//			}
+//			else{
+//				System.out.println("This year is NOT a Leap Year");
+//			}
+//		}
+//	}	
 
