@@ -63,7 +63,8 @@ import java.util.Scanner;
 //		}
 //	}
 //}
-
+//DRIVER INSURANCE:
+//
 //public class Assignmentclass1{
 //	public static void main(String []args){
 //		Scanner input = new Scanner(System.in);
@@ -92,6 +93,8 @@ import java.util.Scanner;
 //		
 //			}
 //		}
+//PROFIT AND LOSS OF SHOPKEEPER:
+//
 //public class Assignmentclass1{
 //	public static void main(String []args){
 //		Scanner input = new Scanner(System.in);
@@ -111,6 +114,8 @@ import java.util.Scanner;
 //		}
 //	}
 //}
+// EVEN AND ODD NUMBERS:
+//
 //public class Assignmentclass1{
 //	public static void main(String [] args){
 //		Scanner input = new Scanner(System.in);
@@ -125,6 +130,8 @@ import java.util.Scanner;
 //		}
 //	}
 //}
+//LEAP YEAR:
+//
 //	public class Assignmentclass1{
 //		public static void main(String []args){
 //			Scanner input = new Scanner(System.in);
@@ -139,4 +146,77 @@ import java.util.Scanner;
 //			}
 //		}
 //	}	
-
+//YOUNGEST OF THREE:
+//public class Assignmentclass1{
+//	public static void main(String []args){
+//		Scanner input = new Scanner(System.in);
+//		System.out.print("Enter the age of Ram: ");
+//		int Ram = input.nextInt();
+//		System.out.print("Enter the age of Shyam: ");
+//		int Shyam = input.nextInt();
+//		System.out.print("Enter the age of Ajay: ");
+//		int Ajay = input.nextInt();
+//		System.out.println("The age of Ram is " +Ram);
+//		System.out.println("The age of Shyam is " +Shyam);
+//		System.out.println("The age of Ajay is " +Ajay);
+//		if ((Ram < Shyam) && (Ram < Ajay)){
+//			System.out.println("Ram is the youngest");
+//		}
+//			else if ((Shyam < Ram)&& (Shyam < Ajay)){
+//			System.out.println("Shyam is the youngest");	
+//			}
+//			else{	
+//		System.out.println("Ajay is the youngest");
+//			}
+//	}
+//}
+//VALIDITY OF A TRIANGLE:
+//public class Assignmentclass1{
+//	public static void main(String []args){
+//		Scanner input = new Scanner(System.in);
+//		System.out.print("Enter the Angle1 of the triangle: ");
+//		float A1 = input.nextFloat();
+//		System.out.print("Enter the Angle2 of the triangle: ");
+//		float A2 = input.nextFloat();
+//		System.out.print("Enter the Angle3 of the triangle: ");
+//		float A3 = input.nextFloat();
+//		System.out.println("The Angle1 of the triangle is " +A1);
+//		System.out.println("The Angle2 of the triangle is " +A2);
+//		System.out.println("The Angle3 of the triangle is " +A3);
+//		if (A1+A2+A3 == 180){
+//			System.out.println("The triangle is valid");
+//			}
+//		else{
+//			System.out.println("The triangle is invalid");
+//		}
+//	}
+//}
+//ABSOLUTE VALUE OF A NUMBER:(WORKS FOR DOUBLE,FLOAT AND INTEGER)
+//
+//public class Assignmentclass1{
+//	public static void main(String []args){
+//		Scanner input = new Scanner(System.in);
+//		System.out.print("Enter any number: ");
+//		double a = input.nextDouble();
+//		System.out.println("The number entered is "+a);
+//		System.out.println("Absolute value of this number is " + Math.abs(a));
+//	}
+//}
+//REVERSE OF A NUMBER:
+public class Assignmentclass1{
+	public static void main(String[]args){
+		Scanner input = new Scanner(System.in);
+		int num = 0;
+		int rnum = 0;
+		System.out.print("Enter any number: ");
+		num = input.nextInt();
+		System.out.println("The number entered is "+num);
+		for (;num != 0;){
+			 rnum = rnum *10;
+			 rnum = rnum + num%10;
+			 num = num/10;
+			 }
+		
+		System.out.println("Reverse of the entered number is " +rnum);
+		}
+}
