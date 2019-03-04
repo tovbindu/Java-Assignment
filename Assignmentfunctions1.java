@@ -159,19 +159,46 @@ public class Assignmentfunctions1 {
 //		return s;
 //	}
 	
-	public static void main(String[]args) {
-		int[] b = {11,22,33,44,55};
-		int z = ave(b);
-		System.out.println("The average of the elements of the array is "+z);
-	}
+//	public static void main(String[]args) {
+//		int[] b = {11,22,33,44,55};
+//		int z = ave(b);
+//		System.out.println("The average of the elements of the array is "+z);
+//	}
+//	
+//	public static int ave(int[]b) {
+//		int s = 0; int r = 0; int i = 0;
+//		for (i = 0;i<b.length;i++) {
+//			s = s+b[i];
+//			}
+//		r = s/i;
+//		return r;
+//	}
 	
-	public static int ave(int[]b) {
-		int s = 0; int r = 0; int i = 0;
-		for (i = 0;i<b.length;i++) {
-			s = s+b[i];
+	public static void main(String[]args) {
+		int[] a = {34,45,72,56,10};
+		int max = getmax(a);
+		System.out.println("The max of the elements of the array is "+max);
+		int min = getmin(a);
+		System.out.println("The min of the elements of the array is "+min);
+				}
+	public static int getmax(int[]a) {
+		int m = a[0];
+		for (int i = 1; i<a.length;i++) {
+			if (a[i]>m) {
+				m = a[i];
 			}
-		r = s/i;
-		return r;
+			}
+		return m;
+		
+	}
+	public static int getmin(int[]a) {
+		int m = a[0];
+		for (int i = 1;i<a.length;i++) {
+			if(a[i]<m) {
+				m = a[i];
+			}
+		}
+		return m;
 	}
 }
 
