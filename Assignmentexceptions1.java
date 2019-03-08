@@ -76,39 +76,66 @@ public class Assignmentexceptions1 {
 
 
 // STUDENT MARKS:
-public static void main(String[]args) {
-	Scanner input = new Scanner(System.in);
-	System.out.print("Enter the marks in S1");
-	try {
-		float a = input.nextFloat();
-		System.out.print("Enter the marks in S2");
-		float b = input.nextFloat();
-		System.out.print("Enter the marks in S3");
-		float c = input.nextFloat();
-		String z = null;
-		String y = validate(a,b,c, c, c, z);
-		System.out.println("The student obtained "+y + "division");
-		}catch(Exception e) {
-			System.out.println("The marks entered are invalid");
-		}
+//public static void main(String[]args) {
+//	Scanner input = new Scanner(System.in);
+//	System.out.print("Enter the marks in S1");
+//	try {
+//		float a = input.nextFloat();
+//		System.out.print("Enter the marks in S2");
+//		float b = input.nextFloat();
+//		System.out.print("Enter the marks in S3");
+//		float c = input.nextFloat();
+//		String z = null;
+//		String y = validate(a,b,c, c, c, z);
+//		System.out.println("The student obtained "+y + "division");
+//		}catch(Exception e) {
+//			System.out.println("The marks entered are invalid");
+//		}
+//	}
+//
+//public static String validate(float S1,float S2,float S3,float t,float p, String S) {
+//	t = S1+S2+S3;
+//	p = (t/300)*100;
+//	if (p>= 60) {
+//	 S = "First";
+//	}
+//	else if((p<=59)&&(p>=50)) {
+//		 S = "Second";
+//	}
+//	else if ((p<=49)&&(p>=40)) {
+//		 S = "Third";
+//	}
+//	else {
+//		 S = "Fail";
+//	}
+//	return S;
+//}
+//}
 	
-}
-
-public static String validate(float S1,float S2,float S3,float t,float p, String S) {
-	t = S1+S2+S3;
-	p = (t/300)*100;
-	if (p>= 60) {
-	 S = "First";
-	}
-	else if((p<=59)&&(p>=50)) {
-		 S = "Second";
-	}
-	else if ((p<=49)&&(p>=40)) {
-		 S = "Third";
-	}
-	else {
-		 S = "Fail";
-	}
-	return S;
+	public static void main(String []args){
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter the Marital status of the driver: ");
+		String MS = input.next();
+		if (MS == "Married"){
+			System.out.println("The driver is insured");
+			}
+		else {
+		System.out.print("Enter the Age of the Driver: ");
+         int Age = input.nextInt();
+        System.out.print("Enter the sex of the driver: ");
+       String Sex = input.next();
+          if ((MS == "UnMarried")&&(Sex == "M")&&(Age > 30)){
+				 System.out.println("The driver is insured");
+				}
+		else if((MS == "UnMarried")&&(Sex == "F")&&(Age > 25)){
+				System.out.println("The driver is insured");
+					}
+		  else{
+			System.out.println("The driver is not insured");
+			}
+//		System.out.println("The age of the driver is " +Age);
+//	    System.out.println("The Sex of the driver is " +Sex);
+//		System.out.println("The Marital Status of the driver is " +MS);
+			}
 }
 }
