@@ -45,6 +45,8 @@ package package1;
 //}
 //}
 
+//METHOD:
+
 //class Box1{
 //	double height;
 //	double width;
@@ -69,6 +71,8 @@ package package1;
 //		mybox2.volume();
 //	}
 //}
+
+//RETURNING A VALUE:
 
 //class Box1{
 //	double height;
@@ -97,6 +101,9 @@ package package1;
 //		System.out.println("volume of box 2 is "+vol);
 //	}
 //}
+
+//FUNCTION THAT TAKES PARAMETER:
+
 //class Box1{
 //	double height;
 //	double width;
@@ -130,11 +137,15 @@ package package1;
 //	}
 //}
 
+//BOX WITH CONSTRUCTOR:
+
 //class Box1{
 //	double height;
 //	double width;
 //	double depth;
-//	
+
+//CONSTRUCTOR:
+
 //	Box1(){
 //		System.out.println("Constructing box");
 //		height = 1;
@@ -161,6 +172,8 @@ package package1;
 //	
 //}
 //}
+
+//BOX WITH CONSTRUCTOR PARAMETERS:
 
 class Box1{
 	double height;
